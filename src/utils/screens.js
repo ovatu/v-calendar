@@ -47,7 +47,7 @@ export function setupScreens(screens = defaultScreens, forceSetup) {
   });
   isSettingUp = false;
 }
-
+return
 // Global mixin that provides responsive '$screens' utility method
 // that refreshes any time the screen matches update
 Vue.mixin({
